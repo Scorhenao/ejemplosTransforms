@@ -1,0 +1,26 @@
+/* transform: skew(<angleX>, <angleY>); */
+
+.box1Horizontal {
+    transform: skew(0deg, 0);
+}
+
+.box2InclinaciónVertical {
+    transform: skew(0, 20deg);
+}
+
+.box3Inclinacióndiagonal {
+    transform: skew(12deg, 10deg);
+}
+.box3Inclinacióndiagonal{
+    transform: skew(0deg, 70);
+}
+
+
+
+.skewed1 {
+  transform: skew(20deg, 10deg); /* Ángulos especificados en grados explícitamente */
+}
+
+.skewed2 {
+  transform: skew(20, 10); /* Ángulos sin la unidad 'deg', pero asumidos como grados por defecto */
+}
